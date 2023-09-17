@@ -27,6 +27,6 @@ function calculatePercentagePassed(startDate, endDate) {
   const percentage1 = calculatePercentagePassed(startDate, endDate1);
   const percentage2 = calculatePercentagePassed(startDate, endDate2);
   
-  document.getElementById('countdown1').innerText = `Days passed until ${endDate2}: ${percentage1}`;
+  document.getElementById('countdown1').innerText = `Days passed until ${endDate1}: ${percentage1}`;
   document.getElementById('countdown2').innerText = `Days passed until ${endDate2}: ${percentage2}`;
   
