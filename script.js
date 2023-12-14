@@ -20,8 +20,8 @@ function calculatePercentagePassed(startDate, endDate) {
   const startDate = '2023-08-25';
   
   // Set the end dates for the date ranges
-  const endDate1 = '2024-03-01';
-  const endDate2 = '2024-07-31';
+  const endDate1 = '2024-01-31';
+  const endDate2 = '2024-07-10';
   
   // Display the number of days and the percentage of days that have passed for each date range
   const percentage1 = calculatePercentagePassed(startDate, endDate1);
